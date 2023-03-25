@@ -1,0 +1,37 @@
+h1 {
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+body {
+    background-color: #313948; /*배경색지정*/
+}
+
+.quiz {
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #CCD1E7;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    left: 450px;
+    top: 70px;
+
+    animation-name: quizbtndown;
+    animation-duration: 0.3s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.action {
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #CCD1E7;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    left: 650px;
+    top: 70px;
+}

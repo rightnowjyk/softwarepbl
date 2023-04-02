@@ -81,3 +81,10 @@
     position: relative;
     top: -20px;
 }
+
+.home {
+    width: 110px;
+    position: absolute;
+    left: 11px;
+    top:20px
+}

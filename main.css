@@ -30,8 +30,8 @@
     text-align: center;
     position: absolute;
     border-radius: 200px;
-    top: 370px;
-    right: 230px;
+    top: 450px;
+    right: 420px;
     font-size: 100px;
 }
 .quizbtn{
@@ -41,8 +41,8 @@
     text-align: center;
     position: absolute;
     border-radius: 200px;
-    top: 370px;
-    left: 230px;
+    top: 450px;
+    left: 420px;
     font-size: 100px;
 }
 .quizletter, .actionletter {

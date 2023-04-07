@@ -25,7 +25,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1600px;
     padding: 10px;
 }
 
@@ -36,7 +35,7 @@
     background-color: #F6B157;
     position:absolute;
     top: 50%;
-    margin-left: 35%;
+    margin-left: 500px;
     border-radius: 200px;
     font-size: 100px;
     transition: .5s;
@@ -47,7 +46,7 @@
     top: 50%;
     background-color: #F6B157;
     position: absolute;
-    margin-right: 35%;
+    margin-right: 500px;
     border-radius: 200px;
     font-size: 100px;
     transition: .5s;

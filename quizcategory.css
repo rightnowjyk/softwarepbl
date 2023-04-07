@@ -87,6 +87,7 @@
     font-size: 70px;
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
 }
 .flagbtn {
     width: 300px;

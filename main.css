@@ -35,7 +35,7 @@
     background-color: #F6B157;
     position:absolute;
     top: 50%;
-    margin-left: 500px;
+    margin-left: 32rem;
     border-radius: 200px;
     font-size: 100px;
     transition: .5s;
@@ -46,7 +46,7 @@
     top: 50%;
     background-color: #F6B157;
     position: absolute;
-    margin-right: 500px;
+    margin-right: 32rem;
     border-radius: 200px;
     font-size: 100px;
     transition: .5s;

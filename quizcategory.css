@@ -45,6 +45,7 @@
     font-size: 50px;
     display: flex;
     flex-wrap: wrap;
+    transition: .5s;
 }
 
 .commonsensebtn {
@@ -60,6 +61,7 @@
     right: -38rem;
     display: flex;
     flex-wrap: wrap;
+    transition: .5s;
 }
 
 .oxbtn {
@@ -74,6 +76,7 @@
     font-size: 70px;
     display: flex;
     flex-wrap: wrap;
+    transition: .5s;
 }
 .nonesensebtn {
     width: 300px;
@@ -88,6 +91,7 @@
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    transition: .5s;
 }
 .flagbtn {
     width: 300px;
@@ -101,6 +105,7 @@
     font-size: 70px;
     display: flex;
     flex-wrap: wrap;
+    transition: .5s;
 }
 
 
@@ -136,4 +141,26 @@
 a:link, a:visited {
     text-decoration: none;  /* 밑줄없애기 */
     color: black;
+}
+.fourquizbtn:hover {
+    background-color: hsl(27, 100%, 50%);
+}
+.commonsensebtn:hover {
+    background-color: hsl(27, 100%, 50%);
+}
+
+.oxbtn:hover {
+    background-color: hsl(27, 100%, 50%);
+}
+
+.nonesensebtn:hover {
+    background-color: hsl(27, 100%, 50%);
+}
+
+.flagbtn:hover {
+    background-color: hsl(27, 100%, 50%);
+}
+a {
+    position: relative;
+    z-index: 1;
 }

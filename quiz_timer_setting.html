@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recreation Game</title>
-    <link rel="stylesheet" href="./main_timer.css" />
+    <link rel="stylesheet" href="./quiz_timer_setting.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,16 +15,24 @@
   </head>
   <body>
     <div class="wrap">
-      <div class="title">타이머</div>
+      <div class="title">타이머 설정</div>
+
+      <p>
+        문제 풀이 타이머를 설정하고<br />
+        시작 버튼을 눌러주세요
+      </p>
 
       <br />
 
       <div class="container">
         <div class="alarm_setting">
-          <img class="alarm" src="./alarm-clock.png" />
-
-          <div class="time"></div>
+          <img class="alarm" src="./alarm.png" />
+          <input type="number" id="input" placeholder="00:00" />
         </div>
+      </div>
+
+      <div class="start">
+        <img class="start_button" src="./start-button.png" />
       </div>
     </div>
   </body>

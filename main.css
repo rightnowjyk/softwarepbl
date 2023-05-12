@@ -107,13 +107,14 @@ a:link, a:visited {
   .modal-content {
     background-color: #fefefe;
     width: 80%; /* 모달의 너비를 80%로 설정 */
-    height: 80%; /* 모달의 높이를 80%로 설정 */
+    height: 100%; /* 모달의 높이를 80%로 설정 */
     margin: 15% auto; /* 모달 팝업을 중앙에 위치시킴 */
     padding: 20px;
     margin-top: 2rem;
     border: 1px solid #888;
     width: 80%; /* 모달 팝업 너비를 80%로 설정 */
     font-size: 2rem;
+    overflow-y: scroll; 
   }
   
   .close {

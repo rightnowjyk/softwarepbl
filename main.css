@@ -30,25 +30,35 @@
 
 
 .actionbtn{
-    width: 450px;
-    height: 220px;
+    width: 28rem;
+    height: 15rem;
     background-color: #F6B157;
     position:absolute;
     top: 50%;
     margin-left: 32rem;
     border-radius: 200px;
-    font-size: 100px;
+    font-size: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    text-align: center; /* 텍스트 가운데 정렬 */
     transition: .5s;
 }
 .quizbtn{
-    width: 450px;
-    height: 220px;
+    width: 28rem;
+    height: 15rem;
     top: 50%;
     background-color: #F6B157;
     position: absolute;
     margin-right: 32rem;
     border-radius: 200px;
-    font-size: 100px;
+    font-size: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    text-align: center; /* 텍스트 가운데 정렬 */
     transition: .5s;
 }
 .actionbtn:hover {

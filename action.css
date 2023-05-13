@@ -1,0 +1,180 @@
+* {
+    font-family: 'Jua', sans-serif;
+}
+
+.top {
+    width: 100vw;
+    height: 200px;
+    background-color: #40BBCA;
+    position: absolute;
+    top : -20px;
+    right: 0px;
+    z-index: 1;
+}
+.title {
+    font-size: 100px;
+    padding-bottom: 300px;
+    position: relative;
+    text-align: center;
+    top: -40px;
+}
+
+.line {
+    width: 100%;
+    position:absolute;
+    top: 170px;
+    right: 0;
+}
+
+.btn1 {
+    width: 22rem;
+    height: 13rem;
+    background-color: #F6B157;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-35rem, -50%);
+    border-radius: 200px;
+    font-size: 4.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    transition: .5s;
+}
+
+.btn2 {
+    width: 22rem;
+    height: 13rem;
+    background-color: #F6B157;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 200px;
+    font-size: 4.4rem;
+    right: -38rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    transition: .5s;
+}
+
+.btn3 {
+    width: 22rem;
+    height: 13rem;
+    background-color: #F6B157;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(13rem, -50%);
+    border-radius: 200px;
+    font-size: 4.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    transition: .5s;
+}
+.btn4 {
+    width: 22rem;
+    height: 13rem;
+    background-color: #F6B157;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-35rem, -50%);
+    margin-top: 14rem;
+    border-radius: 200px;
+    font-size: 4.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    transition: .5s;
+}
+.btn5 {
+    width: 22rem;
+    height: 13rem;
+    background-color: #F6B157;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 14rem;
+    border-radius: 200px;
+    font-size: 4.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    transition: .5s;
+}
+
+.btn6 {
+    width: 22rem;
+    height: 13rem;
+    background-color: #F6B157;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(13rem, -50%);
+    margin-top: 14rem;
+    border-radius: 200px;
+    font-size: 4.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    transition: .5s;
+}
+
+
+
+.home {
+    width: 110px;
+    position: absolute;
+    left: 11px;
+    top:20px
+}
+
+a:link, a:visited {
+    text-decoration: none;  /* 밑줄없애기 */
+    color: black;
+}
+.fourquizbtn:hover {
+    background-color: hsl(27, 100%, 50%);
+}
+.commonsensebtn:hover {
+    background-color: hsl(27, 100%, 50%);
+}
+
+.oxbtn:hover {
+    background-color: hsl(27, 100%, 50%);
+}
+
+.nonesensebtn:hover {
+    background-color: hsl(27, 100%, 50%);
+}
+
+.flagbtn:hover {
+    background-color: hsl(27, 100%, 50%);
+}
+a {
+    position: relative;
+    z-index: 1;
+}
+
